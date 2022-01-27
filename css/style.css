@@ -192,4 +192,62 @@ footer {
 
 
 
+@media screen and  (max-width : 688px ){
+    .container {
+        width: 95%;
+    }
 
+
+
+    .head-section{
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    .head-content, .head-right{
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 15px;
+    }
+
+
+
+
+    .player-section{
+        margin: 40px 0;
+    }
+    .players {
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+    .container-hlt{
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .hlt-content, .hlt-image{
+        max-width: 100%;
+        padding:  30px 10px;
+    }
+
+
+
+
+    .footer-container{
+        width: 95%;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        width: 250px;
+    }
+    .icon {
+        width: 170px;
+        flex-direction: row;
+    }
+
+}
